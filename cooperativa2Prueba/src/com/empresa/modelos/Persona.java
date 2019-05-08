@@ -3,6 +3,7 @@ package com.empresa.modelos;
 public class Persona {
 private String nombre;
 private String apellido;
+private String numeroDocumento;
 
 
 public String getNombre() {
@@ -23,6 +24,16 @@ public String getApellido() {
 }
 public void setApellido(String apellido) {
 	this.apellido = apellido;
+}
+
+
+public String getNumeroDocumento() {
+	return numeroDocumento;
+}
+
+
+public void setNumeroDocumento(String numeroDocumento) {
+	this.numeroDocumento = numeroDocumento;
 }
 
 
