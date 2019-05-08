@@ -6,7 +6,6 @@ private String apellido;
 private String numeroDocumento;
 private int edad;
 
-
 public String getNombre() {
 	return nombre;
 }
