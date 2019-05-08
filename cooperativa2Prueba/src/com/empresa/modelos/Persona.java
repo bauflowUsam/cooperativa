@@ -4,6 +4,17 @@ public class Persona {
 private String nombre;
 private String apellido;
 private String numeroDocumento;
+private int altura = 1;
+
+
+public int getAltura() {
+	return altura;
+}
+
+
+public void setAltura(int altura) {
+	this.altura = altura;
+}
 
 
 public String getNombre() {
