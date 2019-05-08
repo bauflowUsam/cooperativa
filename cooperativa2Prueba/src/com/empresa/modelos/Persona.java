@@ -4,6 +4,7 @@ public class Persona {
 private String nombre;
 private String apellido;
 private String numeroDocumento;
+private int edad;
 
 
 public String getNombre() {
@@ -34,6 +35,16 @@ public String getNumeroDocumento() {
 
 public void setNumeroDocumento(String numeroDocumento) {
 	this.numeroDocumento = numeroDocumento;
+}
+
+
+public int getEdad() {
+	return edad;
+}
+
+
+public void setEdad(int edad) {
+	this.edad = edad;
 }
 
 
